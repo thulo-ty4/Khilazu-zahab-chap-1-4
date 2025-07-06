@@ -1,148 +1,184 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="ar" dir="rtl">
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="google-site-verification" content="nxDQ7qOER2VsdrwLpsTSOG3USAAAlrLh2bGqCrVR4tA" />        <title>خلاص الذهب</title>
-     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline';">
+  <meta name="google-site-verification" content="nxDQ7qOER2VsdrwLpsTSOG3USAAAlrLh2bGqCrVR4tA" />
+  <title>خلاص الذهب - الحاج مالك شه</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline';">
   <meta http-equiv="X-Frame-Options" content="DENY">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
-    </head>  <style>
-        fieldset {
-            margin: 2em auto;
-            padding: 2em;
-            width: 90%;
-            max-width: 900px;
-            border: 2px solid #d4af37;
-            border-radius: 10px;
-            background: #fffdf6;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-
-        h3 {
-            text-align: center;
-            font-size: 28px;
-            color: #a67c00;
-            margin-bottom: 1em;
-            border-bottom: 2px solid #d4af37;
-            padding-bottom: 0.5em;
-        }
-
-        i {
-            display: block;
-        }
-            body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fefefe;
-      color: #111;
-      padding: 0 15px;
-      line-height: 1.9;
+  <style>
+    :root {
+      --primary-color: #d4af37;
+      --secondary-color: #a67c00;
+      --light-bg: #fffdf6;
+      --text-color: #333;
+      --gold-light: #ffd700;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Arial', 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: var(--text-color);
+      line-height: 1.8;
       font-size: 18px;
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
       max-width: 1000px;
-      margin: auto;
-    }
-
-    h1 {
-      background-color: #ffd700;
+      margin: 0 auto;
       padding: 20px;
-      border-radius: 12px;
+    }
+    
+    header {
       text-align: center;
+      padding: 30px 0;
+      background: linear-gradient(135deg, var(--gold-light), var(--primary-color));
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
-
-    h2 {
-      margin-top: 50px;
-      font-size: 1.8rem;
-      color: #444;
-      border-bottom: 2px solid #ffd700;
-      padding-bottom: 10px;
-    }
-
-    pre {
-      font-size: 1.3rem;
-      text-align: justify;
-    }
-
-    .chapter {
-      margin-bottom: 60px;
-    }
-        header h1 {
+    
+    header h1 {
       font-size: 2.5rem;
       margin-bottom: 10px;
+      font-weight: 700;
     }
-
-    header p {
-      font-size: 1.3rem;
-      margin: 0;
-    }
-
-    .content {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
-      background: white;
-      border-radius: var(--radius);
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-
-    .content p {
-      font-size: 1.3rem;
-      text-align: justify;
-    }
-
-    .buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 30px;
-      gap: 15px;
-    }
-
-    .buttons a {
-      background-color: var(--main-color);
-      color: black;
-      padding: 14px 24px;
-      text-decoration: none;
-      border-radius: var(--radius);
-      font-weight: bold;
-      font-size: 1.1rem;
-      transition: background-color 0.3s ease;
-    }
-
-    .buttons a:hover {
-      background-color: #e5c200;
-    }
-
     
+    header h2 {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    
+    .navigation {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 20px 0 40px;
+      padding: 15px;
+      background-color: var(--light-bg);
+      border-radius: 8px;
+      border: 1px solid #eee;
+    }
+    
+    .navigation a {
+      color: var(--secondary-color);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    
+    .navigation a:hover {
+      background-color: var(--primary-color);
+      color: white;
+    }
+    
+    .chapter-container {
+      background-color: white;
+      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      border: 1px solid #eee;
+    }
+    
+    .chapter-title {
+      color: var(--secondary-color);
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--primary-color);
+      text-align: center;
+      position: relative;
+    }
+    
+    .chapter-title::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 3px;
+      background-color: var(--gold-light);
+    }
+    
+    .poem {
+      font-family: 'Traditional Arabic', 'Arial', sans-serif;
+      font-size: 1.2rem;
+      line-height: 2.2;
+      text-align: justify;
+      color: #444;
+    }
+    
+    .poem pre {
+      white-space: pre-wrap;
+      font-family: inherit;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #eee;
+    }
+    
+    @media (max-width: 768px) {
       header h1 {
         font-size: 2rem;
       }
-
-      .buttons a {
-        font-size: 1rem;
-        padding: 12px 20px;
+      
+      header h2 {
+        font-size: 1.2rem;
       }
-            }
-    </style>
-    </head>
-    <body>
-        <div style="text-align: center; margin-top: 20px;">
-  <a href="#chapitre1">الفصل 1</a> |
-  <a href="#chapitre2">الفصل 2</a> |
-  <a href="#chapitre3">الفصل 3</a> |
-  <a href="#chapitre4">الفصل 4</a>
-        </div>
-        <fieldset style="text-align: right; direction: rtl;">
-            <i>
-    <h1>خلاص الذهب</h1>
-                <h2>الحاج مالك شه</h2>
-        <div class="chapter" id="chapitre1"><h3>
-الفصل الأول في ذكر منشإ خلقه ﷺ
-</h3>
- 
-<pre>
+      
+      .chapter-container {
+        padding: 20px;
+      }
+      
+      .poem {
+        font-size: 1rem;
+        line-height: 2;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>خلاص الذهب</h1>
+      <h2>الحاج مالك شه</h2>
+    </header>
     
+    <nav class="navigation">
+      <a href="#chapitre1">الفصل الأول</a>
+      <a href="#chapitre2">الفصل الثاني</a>
+      <a href="#chapitre3">الفصل الثالث</a>
+      <a href="#chapitre4">الفصل الرابع</a>
+    </nav>
+    
+    <div class="chapter-container" id="chapitre1">
+      <h3 class="chapter-title">الفصل الأول في ذكر منشإ خلقه ﷺ</h3>
+      <div class="poem">
+        <pre>
 الْحَمْدُ للهِ ذِي الْإِيجَادِ وَ الْقِدَمِ
 مُمِدِّنَا بِوُجُودِ الْبَدْرِ ذِي القَدَمِ
 
@@ -208,12 +244,14 @@
 
 وَغَيْرُ شِيثٍ فَمَا تَأْتِيهِ مُنْفَرِدًا
 حَوَّاءُ تَكْرِيمَ نُورٍ غَيْرِ مُزْدَحَمِ
-<div class="chapter" id="chapitre2">
-<h3>
-        الفصل الثاني في ذكر آبائه ﷺ وأمهاتهم
-</h3>
- 
-
+        </pre>
+      </div>
+    </div>
+    
+    <div class="chapter-container" id="chapitre2">
+      <h3 class="chapter-title">الفصل الثاني في ذكر آبائه ﷺ وأمهاتهم</h3>
+      <div class="poem">
+        <pre>
 يَا غَائِصَ الْبَحْرِ لِلْأَصْدَافِ عِنْدِيَ أَصْـ
 ـدَافٌ بِهَا دُرَّةٌ أَعْلَى مِنَ الْجَلَمِ
 
@@ -270,14 +308,14 @@
 
 سَلْمَى وَلَيْلَى رَبَابٌ سَوْدَةٌ وَمُعَا
 نَةٌ وَمَهْدَ دُعِ الْأَبْيَاتَ تَغْتَنِمِ
-<div class="chapter" id="chapitre3">
-<h3>
-الفصل الثالث
-
-في ذكر أمه و جداته ﷺ من جهة أمه
-</h3>
- 
-
+        </pre>
+      </div>
+    </div>
+    
+    <div class="chapter-container" id="chapitre3">
+      <h3 class="chapter-title">الفصل الثالث في ذكر أمه و جداته ﷺ من جهة أمه</h3>
+      <div class="poem">
+        <pre>
 آمِنَةٌ بِنْتُ وَهْبٍ ابْنِ عَبْدِ مَنَا
 فٍ ابْنِ زُهْرَةَ أُمُّ الْمُصْطَفَى الْعَلَمِ
 
@@ -313,13 +351,14 @@
 
 وَ دَبَّةٌ أٌمُّهَا قُلْ أُمُّ دَبَّةَ لُبْـ
 ـنَى هَؤُلَا أَرْبَعٌ مِنْ غَيْرِ فِهْرِهِمِ
-<div class="chapter" id="chapitre4">
-<h3>
-
-الفصل الرابع في ذكر قصة الفيل و ما يتعلق بها
-
- </h3>
-
+        </pre>
+      </div>
+    </div>
+    
+    <div class="chapter-container" id="chapitre4">
+      <h3 class="chapter-title">الفصل الرابع في ذكر قصة الفيل و ما يتعلق بها</h3>
+      <div class="poem">
+        <pre>
 يَا وَيْلَ أَبْرَهَةٍ ضَلَّتْ مَكِيدَتُهُ
 إِذْمَا يَسُوقُ فُيُولًا قَاصِدَ الْحَرَمِ
 
@@ -359,7 +398,7 @@
 مَحْمُودُهُ فَأَبُو الْعَبَّاسِ كُنْيَتُهُ
 فَفِي الْمُغَمَّسِ يَأْبَى الْقَصْدَ لِلْحَرَمِ
 
-عَلَيْهِمُ أَرْسَلَ الرَّحْمَانُ حِينَ أَتَوْا
+عَلَيْهِمُ أَرْسَلَ الرَّحْمَانُ حِينَ أَتَوْ
 طَيْرًا أَبَابِيلَ تَرْمِيهِمْ مِنَ الْإِرَمِ
 
 وَمَخْزَنُ النُّورِ لَمَّا آبَ أَبْرَهَةٌ
@@ -382,10 +421,13 @@
 
 أُمَيْمَةً بَرَّةً بَيْضًا وَعَاتِكَةً
 أَرْوَى أَشِقَّاءَ عَبْدِ اللهِ فَاغْتَنِمِ
-
-
-            </pre>
-            </i>
-        </fieldset>
-    </body>
-</html>
+        </pre>
+      </div>
+    </div>
+    
+    <footer>
+      <p>© 2023 خلاص الذهب - جميع الحقوق محفوظة</p>
+    </footer>
+  </div>
+</body>
+    </html>
